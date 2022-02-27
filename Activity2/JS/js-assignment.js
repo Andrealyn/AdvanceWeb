@@ -1,0 +1,11 @@
+let a = 1;
+a += 1;
+let b = 3;
+b -= 1;
+let c = 1;
+c *= 7;
+let d = 10;
+d /= 5;
+let e = 2;
+e %= 4;
+document.getElementById("assignment").innerHTML = a + "/" + b + c + "/" + d + e;
